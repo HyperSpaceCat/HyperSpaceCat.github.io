@@ -6,9 +6,7 @@
 html {
     scroll-behavior: smooth;
 }
-::-webkit-scrollbar {
-    display: none;
-}
+
 body {
     font-family: 'Mulish', sans-serif;
     margin: 0px;
@@ -429,26 +427,72 @@ footer a:hover{
 }
 
 @media screen and (max-width: 820px) {
-    .desktop a{
-        display: none;
-    }
+    
     .navtop{
         font-size: 13px;
         
     }
     .navbar{
-        height: 180px;
+        height: 150px;
     }
     footer{
         top: 1300px;
-        height: 1100px;
+        height: 1150px;
         display: inline-block;
     }
 }
 
-@media screen and (min-width: 542px){
+@media screen and (max-width: 663px){
+    .search_box input[type="text"]{
+        width: 150px;
+    }
+    .PackagesText{
+        width: 100px;
+    }
+    .NewsletterForm input[type="text"] {
+        width: 150px;
+        }
+    .NewsletterForm input[type="submit"] {
+        margin-left: 190px;
+        width: 90px;
+    }
+    .NewsletterText{
+        font-size: 19px;
+    }
+    footer{
+        margin-top: 40px;
+    }
+}
+
+@media screen and (min-width: 543px){
     footer{
         top: 700px;
     }
 
+}
+
+@media screen and (max-width: 464px){
+    .search_box input[type="text"]{
+        width: 90px;
+        font-size: 12px;
+    }
+    h1{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 369px) and (min-width: 0px){
+    .navtop {
+        font-size: 8px;
+    }
+    .navbottom{
+        font-size: 11px;
+    }
+    .flexbox-item{
+        width: 295px;
+        height: 485px;
+    }
+    .flexbox-item img{
+        max-width: 295px;
+    }
 }
