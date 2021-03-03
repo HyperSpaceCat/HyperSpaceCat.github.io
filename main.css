@@ -1,0 +1,591 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Mulish&display=swap');
+
+    /*      font-family: 'Luckiest Guy', cursive;
+            font-family: 'Mulish', sans-serif;      */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Mulish', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background:  #F5FAFE;
+}
+
+a{
+    text-decoration: none;
+}
+
+.Text__logo{
+    font-family: 'Luckiest Guy', cursive;
+}
+.container{
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.break{
+    flex-basis: 100%;
+    height: 0;
+    display: none;
+}
+
+
+/* navtop */
+
+
+
+.navtop{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+.navtop div{
+    margin-right: 80px;
+}
+.navtop div:last-child{
+    margin-right: 0;
+}
+.navtop img{
+    margin-right: 5px;
+}
+
+
+/* navbar */
+
+.navbar {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar div{
+    display: inline;
+    margin: auto 0;
+}
+.navbar div h1 div{
+    color: red;
+
+}
+.bg__color__navbottom{
+    background-color:  #0A223D;
+}
+.bg__color__navbar{
+    background-color: white;
+}
+/* search_box */
+
+.search_box input[type="text"]{
+    position: relative;
+    background: #6b69691a;
+    width: 350px;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding: 0 25px;
+    border-radius: 6px 0 0 6px;
+}
+
+
+.search_box form a{
+    float: right;
+    background: #EC1F46;
+    width: 45px;
+    height: 40px;
+    border-radius: 0 6px 6px 0;
+    border: none;
+    outline: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.search_box form div img{
+    display: block;
+    width: 23px;
+    margin: auto;
+    margin-top: 9px;
+}
+
+/* navbottom */
+
+
+
+.navbottom {
+    position: relative;
+    display: flex;
+    padding: 30px 0;
+    justify-content: space-between;
+}
+
+
+
+.navbottom a{
+    color: #FFFFFF;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.navbottom a:hover{
+    color: #c0c0c0;
+}
+
+/* flexbox */
+
+.PackagesText{
+    background-color: #F5FAFE;
+    display: flex;
+    font-size: 36px;
+    width: 600px;
+    justify-content: center;
+    margin: auto;
+    text-transform: uppercase;
+}
+
+
+
+.HotelFlexBox{
+    display: flex;
+    background-color:  #F5FAFE;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.flexbox-item{
+    box-shadow: black;
+    width: 350px;
+    height: 500px;
+    margin: 10px;
+    background-color: #0A223D;
+    color: white;
+    border-radius: 68px 68px 8px 8px;
+}
+
+.flexbox-item h3{
+    text-align: center;
+}
+.flexbox-item ul{
+    list-style-type: none;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 30px;
+    padding: 20px;
+}
+.Buy {
+    color: white;
+}
+
+.flexbox-item img{
+    border-radius: 8px 8px 0 0;
+}
+
+.flexbox-item-1{
+    min-height: 400px;
+}
+.flexbox-item:hover {
+    opacity: 98%;
+    box-shadow: 0 0 41px rgba(0, 0, 0, 0.4); 
+    transition: .2s ease-in-out;
+}
+.flexbox-item-2{
+    min-height: 400px;
+}
+.flexbox-item-3{
+    min-height: 400px;
+}
+.flexbox-item-4{
+    min-height: 400px;
+}
+.flexbox-item-5{
+    min-height: 400px;
+}
+.flexbox-item-6{
+    min-height: 400px;
+}
+
+.FlashOffer{
+    position: relative;
+    display: block;
+    width: 83px;
+    bottom: 410px;
+    padding: 6px;
+    background: #EC1F46;
+    border-radius: 0px 4px 4px 0px;
+}
+
+.PriceAndBuy{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    bottom: 30px;
+    left: 10px;
+}
+
+.Price{
+    padding: 10px;
+    font-size: 20px;
+}
+.Buy{
+    width: 83px;
+    background: #EC1F46;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+.Buy:hover{
+    background: #ce1b3c;
+}
+
+.MoreOffers{
+    justify-content: center;
+    display: flex;
+    font-size: 36px;
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 100%;
+    border-radius: 45px;
+}
+
+.MoreOffers::after{
+    color: black;
+}
+
+.MoreOffers:hover{
+    box-shadow: 0 0 21px rgba(0, 0, 0, 0.527);
+    transition: .2s ease-in-out;
+}
+
+.MoreOffers__btn{
+    color: black;
+}
+
+.Newsletter{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 470px;
+    left: 0px;
+    top: 50px;
+    background-image: url(/images/NewsBack.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-wrap: wrap;
+    filter: opacity(0.95)
+}
+
+.NewsLetterContent{
+    text-align: center;
+}
+.NewsletterText {
+    font-size: 36px;
+    color: white;
+
+
+}
+.NewsletterText h3, .NewsletterText h5 {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+
+.NewsletterForm{
+    position: relative;
+    justify-content: center;
+
+}
+.NewsletterForm input[type="text"]{
+    background: #F5FAFE;
+    width: 450px;
+    height: 60px;
+    border: none;
+    outline: none;
+    padding: 0 25px;
+    border-radius: 6px 0 0 6px;
+}
+.NewsletterForm input[type="submit"]{
+    position: absolute;
+    margin-left: 200px;
+    bottom: 0px;
+    background: #F5FAFE;
+    width: 95px;
+    height: 60px;
+    border: none;
+    outline: none;
+    padding: 0 25px;
+    border-radius: 0 6px 6px 0;
+    background-color: #EC1F46;
+    color: white;
+}
+
+.NewsletterForm input:hover[type="submit"]{
+    background: #ce1b3c;
+}
+
+
+.NewsletterForm input[type="submit"]:hover{
+    cursor: pointer;
+}
+.NewsletterForm form a{
+    float: right;
+    width: 45px;
+    height: 40px;
+    border-radius: 0 6px 6px 0;
+    border: none;
+    outline: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.NewsletterForm form div img{
+    display: block;
+    width: 23px;
+    margin: auto;
+    margin-top: 9px;
+}
+
+
+
+.OtherActivities{
+    position: relative;
+    width: 100%;
+    height: 450px;
+    left: 0px;
+    top: 90px;
+
+}
+
+
+.ActivityFlexBox{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 70px;
+}
+
+.ActivityItem {
+    width: 150px;
+    height: 255px;
+    border-radius: 10px;
+    margin: 8px;
+}
+.ActivityItem:hover {
+    box-shadow: 0 0 21px rgba(0, 0, 0, 0.527);
+    transition: .2s ease-in-out;
+
+}
+.Activityitem-1{
+    min-height: 255px;
+    min-width: 255px;
+}
+.Activityitem-2{
+    min-height: 255px;
+    min-width: 255px;
+}
+.Activityitem-3{
+    min-height: 255px;
+    min-width: 255px;
+}
+.Activityitem-4{
+    min-width: 255px;
+    min-width: 255px;
+}
+
+.ActivityAbout{
+    position: relative;
+    display: block;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    padding: 20px;
+    bottom: 148px;
+}
+
+
+
+footer {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 422px;
+    left: 0px;
+    top: 290px;
+    color: white;
+    background: #0A223D;
+}
+footer div{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+footer div h1{
+    position: relative;
+    color: white;
+    width: 80px;
+    font-style: normal;
+    font-weight: normal;
+    margin-top: 100px;
+    font-size: 64px;
+    line-height: 64px;
+    margin-left: 50px;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+footer h1 div{
+    color: red;
+}
+
+
+footer ul{
+    list-style-type: none;
+    margin-top: 70px;
+}
+
+footer li{
+    margin: 10px;
+}
+footer li:first-child{
+    text-transform: uppercase;
+}
+
+footer a{
+    color: gray;
+}
+
+footer a:hover{
+    color: rgb(77, 77, 77);
+}
+
+
+
+@media screen and (max-width: 1204px){
+    .break{
+        display: flex;
+    }
+    .ActivityFlexBox{
+        justify-content: space-evenly;
+
+    }
+    footer{
+        margin-top: 140px;
+    }
+
+}
+
+@media screen and (max-width: 955px){
+
+    footer div{
+        display: block;
+    }
+    footer{
+        height: 1170px;
+    }
+
+
+}
+@media screen and (max-width: 772px){
+    .search_box input[type="text"]{
+        width: 170px;
+    }
+}
+@media screen and (max-width: 680px){
+    .PackagesText{
+        width: 100px;
+    }
+    .search_box input[type="text"]{
+        width: 150px;
+    }
+    .NewsletterForm input[type="text"] {
+        width: 280px;
+        }
+    .NewsletterForm input[type="submit"] {
+        margin-left: 90px;
+        width: 80px;
+    }
+
+    footer{
+        margin-top: 190px;
+    }
+}
+
+@media screen and (max-width: 602px){
+    footer{
+        margin-top: 750px;
+    }
+    footer div{
+        
+        justify-content: center;
+    }
+}
+
+
+@media screen and (max-width: 521px){
+
+
+    .search_box input[type="text"]{
+        width: 110px;
+    } 
+    .navbar .Text__logo{
+        font-size: 11px;
+    }
+    .navbar{
+        padding: 20px 0;
+    }
+}
+
+@media screen and (max-width: 464px){
+
+    .navbottom{
+        font-size: 11px;
+    }
+
+    .NewsletterText{
+        font-size: 26px;
+    }
+}
+
+@media screen and (max-width: 369px) and (min-width: 0px){
+
+    .flexbox-item{
+        width: 295px;
+        height: 485px;
+    }
+    .flexbox-item img{
+        max-width: 295px;
+    }
+
+    .NewsletterForm input[type="text"] {
+        width: 170px;
+        }
+    .NewsletterForm input[type="submit"] {
+        margin-left: 40px;
+        width: 80px;
+    }
+
+}
+
+
+@media screen and (max-width: 393px){
+
+    .search_box input[type="text"]{
+        width: 50px;
+        font-size: 11px;
+    }
+
+    .navtop{
+        display: block;
+        text-align: center;
+    }
+    .navtop div{
+        margin: 20px 0;
+    }
+}
+
+@media screen and (max-width: 1233px){
+    
+    .HotelFlexBox{
+        justify-content: center;
+    }
+}
